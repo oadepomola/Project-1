@@ -1,0 +1,28 @@
+## Documentation of Project 1
+
+`Sudo atp update`
+`Sudo apt install apache2`
+`sudo systemctl status apache2`
+[curl](images://www.curl.png)
+`sudo apt install mysql-server`
+`sudo mysql`
+`sudo mysql_secure_installation`
+![mysql server](./image/mysql server.png)
+`sudo apt install php libapache2-mod-php php-mysql`
+[php mysql](./image/php mysql.png)
+`sudo mkdir /var/www/projectlamp`
+`sudo chown -R $USER:$USER /var/www/projectlamp`
+`sudo vi /etc/apache2/sites-available/projectlamp.conf`
+`sudo ls /etc/apache2/sites-available`
+`sudo a2ensite projectlamp`
+`sudo a2dissite 000-default`
+`sudo apache2ctl configtest`
+`sudo systemctl reload apache2`
+[apache status](./images/apache status.png)
+`sudo vim /etc/apache2/mods-enabled/dir.conf`
+`sudo systemctl reload apache2`
+`sudo rm /var/www/projectlamp/index.php`
+[reload apache2](./image/reload apache2.png)
+[status-mysql](./image/status-mysql.png)
+[ubuntu pro](./image/ubuntu pro.png)
+[title](https://www.example.com)
